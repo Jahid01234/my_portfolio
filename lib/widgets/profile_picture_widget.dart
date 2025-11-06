@@ -19,7 +19,7 @@ class ProfilePictureWidget extends StatelessWidget {
           color: Colors.white,
           image: const DecorationImage(
               image: AssetImage(Assets.profilePicture),
-            fit: BoxFit.fitHeight
+              fit: BoxFit.cover
           ),
           boxShadow: [
             BoxShadow(

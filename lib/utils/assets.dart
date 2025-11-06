@@ -18,7 +18,8 @@ class Assets{
   static const String notesApp = "$imagePath/notes_app.png";
   static const String plantsApp = "$imagePath/plants_app.png";
   static const String background = "$imagePath/background.svg";
-  static const String profilePicture = "$imagePath/profilePicture.jpg";
+  //static const String profilePicture = "$imagePath/profilePicture.jpg";
+  static const String profilePicture = "$imagePath/jahid_pic.jpg";
 
 
   static const String facebookIcon = "$iconPath/facebook.svg";
