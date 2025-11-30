@@ -42,7 +42,7 @@ class PortfolioViewModel extends ChangeNotifier {
 
   List<ProjectData> projectData = [
     ProjectData(
-      projectName: "Crafty Bay",
+      projectName: "Crafty Bays",
       projectDescription:
           "Crafty Bay is a modern e-commerce app built with Flutter, utilizing REST API, GetX for state management, and SharedPreferences for local storage."
           "The Crafty Bay E-commerce App is a full-featured online shopping application built with Flutter,"
