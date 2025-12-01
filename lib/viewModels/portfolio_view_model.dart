@@ -42,7 +42,7 @@ class PortfolioViewModel extends ChangeNotifier {
 
   List<ProjectData> projectData = [
     ProjectData(
-      projectName: "Crafty Bays",
+      projectName: "Crafty Bay",
       projectDescription:
           "Crafty Bay is a modern e-commerce app built with Flutter, utilizing REST API, GetX for state management, and SharedPreferences for local storage."
           "The Crafty Bay E-commerce App is a full-featured online shopping application built with Flutter,"
@@ -61,16 +61,37 @@ class PortfolioViewModel extends ChangeNotifier {
     ProjectData(
       projectName: "Chat App",
       projectDescription:
-          "A real-time chat application built with Flutter, Firebase, and Provider,"
-          " allowing users to send and receive messages instantly. The app includes"
-          " secure authentication, message management, and user moderation features "
-          "for a seamless chatting experience.",
+         "A real-time chat application built with Flutter, Firebase, and Provider,"
+             " allowing users to send and receive messages instantly. The app includes"
+             " secure authentication, message management, user moderation, and "
+             "supports real-time audio and video calls powered by Zego Cloud SDK for "
+             "a seamless chatting experience.",
       projectLink: "https://github.com/Jahid01234/Chat-App",
       projectPicture: Assets.chatApp,
       projectTechStacks: [
         Assets.flutterIcon,
         Assets.dartIcon,
         Assets.firebaseIcon,
+      ],
+    ),
+    ProjectData(
+      projectName: "Food Delivery App",
+      projectDescription:
+      "A food delivery app is a modern solution built with Flutter, Firebase, and GetX,"
+          " designed to connect users with a wide variety of restaurants and cuisines."
+          " From browsing menus to customizing orders, everything is optimized for "
+          "simplicity and speed. Real-time delivery tracking with Google Maps, multiple"
+          " payment options, push notifications for order updates, exclusive discounts,"
+          " and a user-friendly interface make the food ordering journey smooth and "
+          "reliable. Whether craving snacks, fast food, or full meals, users can enjoy a"
+          " comfortable and hassle-free delivery experience anytime, anywhere.",
+      projectLink: "https://github.com/Jahid01234/Food_Delivery_Application",
+      projectPicture: Assets.foodDeliveryApp,
+      projectTechStacks: [
+        Assets.flutterIcon,
+        Assets.dartIcon,
+        Assets.firebaseIcon,
+        Assets.getxIcon,
       ],
     ),
     ProjectData(
@@ -99,6 +120,39 @@ class PortfolioViewModel extends ChangeNotifier {
         Assets.flutterIcon,
         Assets.dartIcon,
         Assets.restApiIcon,
+      ],
+    ),
+    ProjectData(
+      projectName: "Ai Chatbot",
+      projectDescription:
+      "AI Chatbot is a powerful Flutter application that leverages Google's Gemini"
+          " API to deliver real-time intelligent conversations, while automatically "
+          "storing all chat history in a local SQLite database for seamless offline"
+          " access. Built with GetX state management for optimal performance and "
+          "smooth user experience.",
+      projectLink: "https://github.com/Jahid01234/Ai-Chatbot",
+      projectPicture: Assets.aiChatbotApp,
+      projectTechStacks: [
+        Assets.flutterIcon,
+        Assets.dartIcon,
+        Assets.sqliteIcon,
+      ],
+    ),
+    ProjectData(
+      projectName: "QR Code Pro",
+      projectDescription:
+      "QR Code Pro is a simple and powerful QR code generator that allows users to"
+          " create custom QR codes for URLs, text, contacts, Wi-Fi, and more. Users"
+          " can instantly generate, save, and share QR codes with ease. With a clean"
+          " and intuitive interface, high-quality QR output, and fast performance, QR"
+          " Code Pro makes QR code creation convenient, reliable, and perfect for both"
+          " personal and business use.",
+      projectLink: "https://github.com/Jahid01234/Qr_Code_App",
+      projectPicture: Assets.qrCodeProApp,
+      projectTechStacks: [
+        Assets.flutterIcon,
+        Assets.dartIcon,
+        Assets.getxIcon,
       ],
     ),
     ProjectData(
