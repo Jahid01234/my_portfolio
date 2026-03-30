@@ -23,9 +23,6 @@ class Assets{
   static const String weatherApp = "$imagePath/weather_app.png";
   static const String doctorAppointmentApp = "$imagePath/doctor_appointment_app.png";
   static const String faceRecognitionDetectionApp = "$imagePath/face_recognition_detection_app.png";
-
-
-
   static const String background = "$imagePath/background.svg";
   static const String profilePicture = "$imagePath/jahid_pic.jpg";
 
