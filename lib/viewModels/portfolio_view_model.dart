@@ -63,15 +63,67 @@ class PortfolioViewModel extends ChangeNotifier {
       projectDescription:
          "A real-time chat application built with Flutter, Firebase, and Provider,"
              " allowing users to send and receive messages instantly. The app includes"
-             " secure authentication, message management, user moderation, and "
-             "supports real-time audio and video calls powered by Zego Cloud SDK for "
-             "a seamless chatting experience.",
+             " secure authentication, message management, and user moderation. It also"
+             " supports real-time audio and video calls powered by Zego Cloud SDK, along"
+             " with live streaming features that enable users to broadcast and watch live"
+             " content, creating a more interactive and engaging communication experience.",
       projectLink: "https://github.com/Jahid01234/Chat-App",
       projectPicture: Assets.chatApp,
       projectTechStacks: [
         Assets.flutterIcon,
         Assets.dartIcon,
         Assets.firebaseIcon,
+      ],
+    ),
+    ProjectData(
+      projectName: "Face Recognition & Liveness Detection app",
+      projectDescription:
+      "A secure Face Recognition & Liveness Detection app that identifies users by"
+          " matching their face with locally stored data, while ensuring real-time"
+          " presence detection using AI-powered models. Built with Flutter using "
+          "ML Kit, TensorFlow Lite, and local database support, it provides fast,"
+          " reliable, and fully offline authentication without requiring an internet connection.",
+      projectLink: "https://github.com/Jahid01234/Face_Recognition_and_Liveness_Detection",
+      projectPicture: Assets.faceRecognitionDetectionApp,
+      projectTechStacks: [
+        Assets.flutterIcon,
+        Assets.dartIcon,
+        Assets.getxIcon,
+        Assets.sqliteIcon,
+      ],
+    ),
+    ProjectData(
+      projectName: "Weather App",
+      projectDescription:
+      "A modern weather application that lets users search and explore real-time weather"
+          " conditions for any location across the globe. It delivers accurate forecasts,"
+          " including temperature, humidity, wind speed, and atmospheric conditions, through"
+          " a clean and intuitive user interface, ensuring a smooth and informative user experience.",
+      projectLink: "https://github.com/Jahid01234/weather_app",
+      projectPicture: Assets.weatherApp,
+      projectTechStacks: [
+        Assets.flutterIcon,
+        Assets.dartIcon,
+      ],
+    ),
+
+    ProjectData(
+      projectName: "Doctor Appointment App",
+      projectDescription:
+      "A Doctor Appointment App is a comprehensive healthcare solution that enables"
+          " users to easily find, compare, and connect with doctors based on specialization,"
+          " location, and availability. It allows patients to book, reschedule, or cancel"
+          " appointments seamlessly through a secure and user-friendly interface. The app "
+          "often includes features like doctor profiles, patient reviews, real-time availability,"
+          " digital prescriptions, and appointment reminders. With integrated notifications and"
+          " secure data handling, it ensures a smooth and reliable experience for both patients"
+          " and healthcare providers, saving time and improving access to quality medical care.",
+      projectLink: "https://github.com/Jahid01234/Doctor_appointment_app",
+      projectPicture: Assets.doctorAppointmentApp,
+      projectTechStacks: [
+        Assets.flutterIcon,
+        Assets.dartIcon,
+        Assets.getxIcon,
       ],
     ),
     ProjectData(

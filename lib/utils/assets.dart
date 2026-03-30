@@ -20,6 +20,12 @@ class Assets{
   static const String foodDeliveryApp = "$imagePath/food_delivery_app.png";
   static const String qrCodeProApp = "$imagePath/qr_code_pro_app.png";
   static const String aiChatbotApp = "$imagePath/ai_chatbot.png";
+  static const String weatherApp = "$imagePath/weather_app.png";
+  static const String doctorAppointmentApp = "$imagePath/doctor_appointment_app.png";
+  static const String faceRecognitionDetectionApp = "$imagePath/face_recognition_detection_app.png";
+
+
+
   static const String background = "$imagePath/background.svg";
   static const String profilePicture = "$imagePath/jahid_pic.jpg";
 
